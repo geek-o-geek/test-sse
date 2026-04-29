@@ -19,6 +19,7 @@ export default defineConfig({
         changeOrigin: true,
       },
     },
+    allowedHosts: ["old-supremacy-panic.ngrok-free.dev"],
   },
 
   build: {

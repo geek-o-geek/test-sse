@@ -25,7 +25,7 @@ function Signup() {
 
   return (
     <div className='container'>
-        <h1>Signup</h1>
+        <h1>Signup form</h1>
         <form onSubmit={submitHandler}>
             <div style={styles.formElement}>
                 <label style={{ marginBottom: 10 }} htmlFor="email">Email</label>
