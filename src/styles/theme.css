@@ -1,0 +1,14 @@
+:root {
+    --color-bg: #ffffff;
+    --color-text: #121212;
+    --color-primary: #2563eb;
+    --color-secondary: #9333ea;
+
+    --font-main: 'Inter', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+}
+
+.dark {
+    --color-bg: #111827;
+    --color-text: #f9fafb;
+}
