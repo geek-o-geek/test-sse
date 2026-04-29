@@ -14,7 +14,7 @@ function CartDetails() {
         navigate("/products");
     }
 
-    const removeFromCart =useCartStore((state) => state.removeFromCart)
+    const removeFromCart =useCartStore((state: CartState) => state.removeFromCart)
 
     const handleRemove = (id: number) => {
         removeFromCart(id);
